@@ -1,10 +1,9 @@
 import time 
 inicio=time.time()
-for _ in range(1000000):
-    pass
+
 
 def contador(num):
-     print(num)
+     print(num, end=" -> ")
      if num == 1:
         return
      else:
