@@ -13,7 +13,7 @@ def fibonacci(n):
     # De lo contrario, el número de Fibonacci es la suma de los dos números de Fibonacci anteriores.
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
-
+    
 
 for i in range(11):
     print(f"El numero es {fibonacci(i)}")
