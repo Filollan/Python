@@ -15,7 +15,7 @@ def potencia(base, exponente):
 
 
 
-print(f"La potencia es {potencia(5, 2)}")
+print(f"La potencia es {potencia(2, 5)}")
 fin =time.time()
 tiempo_ejecucion=fin -inicio
 print(f"el tiempo de ejecucion es: {tiempo_ejecucion}")
