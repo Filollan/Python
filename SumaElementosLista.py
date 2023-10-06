@@ -26,4 +26,4 @@ print(suma([1,2,3,4,5,6,7]))
 fin =time.time()
 tiempo_ejecucion=fin -inicio
 print(f"el tiempo de ejecucion es: {tiempo_ejecucion}")
- 
+    
